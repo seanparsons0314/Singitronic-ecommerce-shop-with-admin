@@ -14,7 +14,7 @@ I will describe the main parts of the documentaion in the repository description
 <h3>2.2. Plaky - Project management application</h3>
 <p>The Plaky application was used for project management and project tracking. It is a free application that facilitates collaboration between team members and enables easy export of project reports in one click.</p>
 
-![plaky image](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/f670fe69-1037-4b8c-a522-047534398e0a)
+![plaky image](https://github.com/user-attachments/assets/f4df2872-c38d-4419-9ec1-3f3a7a624312)
 
 <h2>3. Requirements analysis</h2>
 <h3>3.1. Software requirements specification</h3>
@@ -22,7 +22,7 @@ I will describe the main parts of the documentaion in the repository description
 <h3>3.2. Modeling the system with a use case diagram</h3>
 <p>The Use Case Diagram represents a detailed description of the functionality of the system in different situations. It describes the steps and actors involved in each situation. The use case diagram is used as a basis for further design, implementation and testing of the software.</p>
 
-![use case diagram github](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/dc578826-4031-4b53-b54c-0c8af3e1710e)
+![use case diagram github](https://github.com/user-attachments/assets/4b7b1181-5dcf-49e6-bda5-976260c11167)
 
 <p>The image above represents our <b>ecommerce website use case diagram</b>. Here we have also defined main success scenarios and alternative scenarios for admin and users.</p>
 <h2>4. System design</h2>
@@ -32,18 +32,15 @@ I will describe the main parts of the documentaion in the repository description
 <p>Software implementation is the process of converting a software design into a functional software system. This is where all programming should begin.
 When you are in the software implementation stage, it is important to take care of the internal documentation. This documentation includes headers and comments that provide basic information about the component and explanations of specific parts of code. Thanks to these elements, we are easier to manage in code and we better understand what we have done, which contributes to more efficient work and maintaining software projects.</p>
 
-![products component comments](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/86c22295-64c6-4328-a17a-8f4f0820b8f1)
-
 <h2>6. Testing</h2>
 <p>Testing is a formal process that is performed by the testing team with the aim of determining the logical correctness and purposefulness of the tested program. The importance of testing is great because it significantly reduces the losses that software companies have due to errors and failure of software incurred after its delivery to the customer. <b>We have done the entire testing process manually and documented everything in detail.</b></p>
 
-![testing script](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/abb8b25e-89e3-4c1e-a195-fff350d7405f)
+![testing script](https://github.com/user-attachments/assets/454d4881-74b1-4d61-9e60-e3f5b4c0f3ed)
 
 <p>The test scripts represent the instructions from which it is clearly seen as a step by step how the testing was performed. They provide full control over testing, so, if some errors or cancellation occurs, testing conditions can be repeated and the system again lead to that error or cancellation. This is necessary to establish the cause of the problem.
 As the above image shows, we documented each our test example in terms of test ID, input data, instruction, expected result, actual result, additional comment, component, method and testing technique. Currently, our test script has over 350 manually tested examples.</p>
 
-![errors in testing script](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/507fa099-2039-47ce-a38b-209166a8d5c4)
-
+![errors in testing script](https://github.com/user-attachments/assets/229e8d73-aeab-4891-bbda-0fd605405089)
 
 <p>During the software testing process, we documented each error found in the error report form. As shown in the image above, each error has its own unique error ID and a detailed description of the error containing: date of identifying an error, date of troubleshooting an error, error priority, type of error, file name, testing phase.</p>
 
@@ -54,12 +51,10 @@ We have applied this method by examining the code after each new added functiona
 <h3>6.2. Component system hierarchy</h3>
 <p>The component system hierarchy of the application components is a complete sketch of all components in our application created in Figma design tool. This sketch is very important to us when testing, because it represents an insight into the order of the component testing. The below image represents our component system hierarchy from the bird eye view:</p>
 
-![application component system](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/6d4a009f-746e-4627-a0fd-acf6fc0f15de)
-
 <h3>6.3. Unit testing</h3>
 <p>Unit testing for our application includes the process of testing individual functionalities or application components, to ensure each of them work properly independently. The goal of unit testing is to identify and correct errors in the early stages of development, increase the reliability of code and facilitating future application maintenance.</p>
 
-![unit testing stats english](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/94ec4f61-698e-4954-ba35-1336e939864a)
+![unit testing stats](https://github.com/user-attachments/assets/925d70a1-6117-4a06-abac-997c5263c26e)
 
 <p>As the image above shows we found a total of 75 errors in unit test of 103 total errors found, which in our testing unit testing had the highest efficiency with 72.8%. During unit testing, we used the black box and the white box method. The techniques we used for testing were:</p>
 <p>The black box method:</p>
@@ -77,8 +72,6 @@ We have applied this method by examining the code after each new added functiona
 <h3>6.4. Integration testing</h3>
 <p>In integration testing, we used the approach "Integration from the bottom to top". This is very used approach in integration testing. This method starts from the components of the system organized in the hierarchy on which the main program is located. Testing starts by unit testing all components located at the lowest level in hierarchy. The components are then tested at the next level that calls previously tested components.</p>
 
-![integration testing stats eng](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/4375373b-b67d-4a11-bee4-ff55325c2db7)
-
 <p>As the image above shows we found a total of 28 errors in integration testing of 103 total errors found, which in our testing, integration testing has efficiency with 27.2%.</p>
 
 <h3>6.5. End-to-end testing</h3>
@@ -87,14 +80,10 @@ We have applied this method by examining the code after each new added functiona
 <h3>6.6. Error records at a specified time interval</h3>
 <p>During testing, we recorded the found mistakes by days. The next diagram helped us know how to know how our testing progresses.</p>
 
-![diagram about erros by days](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/1b99f3f8-d344-48a5-a973-6764b7e3f7bf)
-
 <p>As the image above shows, the number of errors increases day by day, so testing must continue. Throughout 4 days of testing, we managed to find a total of 103 errors.</p>
 
 <h3>6.7. Analysis of errors found</h3>
 <p>During testing, we also conducted the error report form that we have already mentioned in the introductory chapter on testing. This document has helped us significantly in order to document all the most common types of mistakes in our application, which shows the image below.</p>
-
-![error frequency](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/d90292b7-579d-4267-a88d-485ee70dc275)
 
 <h2>Singitronic – Key features</h2>
 <p>Singitronic is Next.js and Node.js full-stack e-commerce website with a <b>free source code</b>. Our application comes with the fully functional <b>admin panel</b> and it is fully open-source. Our <b>free online store website</b> is completely responsive and manually tested. You can use our e-commerce project as a template or boilerplate for you next project. Our ecommerce shop template and Next.js ecommerce theme is fully customized for all your needs. It is available for <b>free download</b> and can be used as an ecommerce example for all your future projects. </p>
@@ -170,57 +159,3 @@ npm run dev
 
 <p>14. Open <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> and see it live!</p>
 
-
-<h2>Project screenshots</h2>
-
-<h3>Home page</h3>
-
-![singitronic home page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/a48c092d-1f19-4bae-a480-0b5862630e1c)
-
-<h3>Shop page</h3>
-
-![singitronic shop page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/1133effb-0511-40c6-aee5-119404c5af34)
-
-<h3>Single product page</h3>
-
-![singitronic single product page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/443ea3e2-4d32-4d15-aa3b-436cbae0eade)
-
-<h3>Register page</h3>
-
-![singitronic register page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/0052cc90-d61a-4a8c-b8d8-02cee1b45d13)
-
-<h3>Login page</h3>
-
-![singitronic logic page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/7a377bb3-330f-43a4-860f-400bf7aa0f97)
-
-<h3>Search page</h3>
-
-![singitronic search page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/384c7f55-16ee-4966-b612-a34f5506af51)
-
-<h3>Wishlist page</h3>
-
-![singitronic wishlist page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/a20568d6-12fb-42e6-a5ef-583f6e79229a)
-
-<h3>Cart page</h3>
-
-![singitronic cart page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/b9d326be-342c-4f6a-af64-34794f6c39eb)
-
-<h3>Checkout page</h3>
-
-![singitronic checkout page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/a458d931-9df2-4e3d-bf3f-702c1a3ba9e9)
-
-<h3>Admin dashboard - All orders page</h3>
-
-![singitronic admin orders page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/498b07f4-422c-46c5-b2e4-ed2a93306b7a)
-
-<h3>Admin dashboard - All products page</h3>
-
-![singitronic admin products page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/e26822ab-6c7e-4474-9161-288a5bb3476f)
-
-<h3>Admin dashboard - All categories page<h3>
-
-![singitronic admin categories page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/9e4a54d7-5bbb-4f1b-bdab-43c1079510e1)
-
-<h3>Admin dashboard - All users page</h3>
-
-![singitronic admin users page](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/e14e8f2c-4377-42fd-b89b-d4868cc11b11)
