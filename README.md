@@ -7,7 +7,7 @@ I will describe the main parts of the documentaion in the repository description
 <h2>2. Software engineering process</h2>
 <p>During the design and modeling of the software, we decided to use the cascade model(waterfall model). We decided on it considering its simplicity, easy project monitoring and easy application of the model. The cascade model is probably the oldest published model. It was first published in 1970 and represents a high level of abstraction. The stages in the model are connected in cascade, and the model itself is organized so that the next level is passed only after the completion of the previous level.</p>
 
-![cascade model photo](https://github.com/seanparsons0314/Singitronic-ecommerce-shop-with-admin/assets/138793624/2c8546ba-b57f-4467-9db9-d09cec46beb2)
+![cascade model photo](https://github.com/user-attachments/assets/d1ef8c9e-3b4a-4b4f-b902-7a63cfcdd1f8)
 
 <h3>2.1. Defining milestones</h3>
 <p>Milestones are key events in the project that show us by what date something must be finished. At this stage, we defined our milestones for every stage in our software engineering process.</p>
